@@ -1,0 +1,452 @@
+/* global var  */
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+html{
+  height: 100%;
+
+    }
+.col-md-6{
+position: relative;
+min-height: 1px;
+padding-right: 0px;
+padding-left: 0px;
+}
+.RigehtBox{
+
+height: 100vh;
+background-image: url("img/Logo.png");
+background-image: linear-gradient(to left bottom, #3ec3ce, #34aec2, #3099b4, #3185a4, #337192);
+}
+.RigehtBox:after{
+  content: "\f3f2";
+  font-family: 'FontAwesome';
+  color: #757575;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+
+}
+
+
+  .Hhiget{
+    height: 100vh;
+
+  }
+.BigBox{
+  float: right;
+
+}
+.Test-T{
+  background-color: #fff;
+
+}
+/* strart  lift ontent  */
+.LiftContent{
+  float: right;
+  margin-top: 100px;
+  width: 600px;
+
+
+}
+
+.formContent{
+  float: right;
+}
+.InputNumber{
+  float: right;
+ direction: rtl;
+ border-radius: 5px;
+ width: 291px;
+ height: 46px;
+ border: 1px solid #868686;
+ font-size: 14px;
+ font-weight: bold;
+ font-family: 'Cairo', sans-serif;
+ border-width:thin;
+}
+.Nsubmit{
+  float: right;
+  margin-right: 70px;
+  font-family: 'Cairo', sans-serif;
+  width: 183px;
+  height: 46px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-color: #3BA1DC;
+  color: #3BA1DC;
+  border-width:thin;
+
+}
+.Nsubmit :hover{
+  background-color: red;
+}
+.NewUser{
+  float: right;
+  margin-right: 200px;
+  font-family: 'Cairo', sans-serif;
+}
+.Swap-Content{
+  display:block;
+}
+.AmammInfo{
+  float:right;
+  padding-top: 52px;
+  /* border: 2px  #000 solid; */
+
+}
+.AmammInfo img{
+  float: right;
+
+}
+.AmammInfo h4{
+  font-family: 'Cairo', sans-serif;
+  float: right;
+  text-align: right;
+  line-height: 30px;
+  width: 600px;
+  font-size: 16px;
+}
+.AmammInfo span{
+  float: right;
+  margin-top: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Cairo', sans-serif;
+  /* border: 2px  #000 solid; */
+
+}
+.butSin{
+  margin-top: 70px;
+  margin-right: 150px;
+}
+
+.butSin button {
+float: right;
+margin-top:15px;
+font-size: 14px;
+font-family: 'Cairo', sans-serif;
+width: 320px;
+height: 46px;
+border-radius: 50px;
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-color: #3BA1DC;
+
+
+}
+.SelectBut{
+  color: #3BA1DC;
+  background-color: #fff;
+
+}
+.SelectButt{
+  color: #fff;
+  background-color: #3BA1DC;
+
+}
+.PhoneCode{
+  float: right;
+  /* border: 2px solid #000; */
+  margin-top: 80px;
+  display:none;
+
+
+
+}
+.PhoneCode h4 {
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  float: right;
+}
+.PhoneCode span{
+  float: right;
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 33px;
+
+}
+.EnterCodePhone{
+  float: right;
+  margin-top: 43px;
+  /* width: 474px;
+  height: 50px; */
+}
+
+.EnterNumber{
+  float: right;
+  font-family: 'Cairo', sans-serif;
+  font-size: 18px;
+  border-bottom: 2px solid #44a5ba;
+  border-top: 2px;
+  border-left: 2px;
+  border-rigth: 2px;
+  direction: rtl;
+  height: 50px;
+  width: 474px
+}
+.PhoneCode p{
+  float: right;
+  padding-right: 350px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.PhoneCode button{
+  float: right;
+  font-size: 20px;
+  font-family: 'Cairo', sans-serif;
+  width: 320px;
+  height: 46px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-color: #3BA1DC;
+  margin-right: 100px;
+  margin-top: 50px;
+
+}
+
+/* End  lift ontent  */
+/* strart  Right ontent  */
+.AmmFeatures{
+   float: right;
+   /* border: 2px  #000 solid; */
+   margin-top: 250px;
+   min-width: 200px;
+
+
+}
+.AmmFeatures ui {
+
+  direction: rtl;
+  list-style-type: none;
+  float: right;
+  font-size: 30px;
+  color: #44a6bb;
+
+}
+
+.AmmFeatures ui li i{
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  border: 2px  #fff solid;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px #000000;
+
+}
+.AmmFeatures ui :not(:first-child){
+    margin-top: 50px;
+
+}
+.AmmFeatures span{
+  color: #fff;
+  font-family: 'Cairo', sans-serif;
+  font-size: 30px;
+  margin-right: 0px;
+
+}
+
+/* End  Right ontent  */
+/* strart  AmmemDashboord  */
+.block{
+  background-color: #eeeeee;
+  height: 100vh;
+}
+.MinSite{
+  background-color: #fff;
+  height: 100vh;
+
+}
+/* Start Nav style  */
+.TopNav{
+  float: right;
+  height: 50px;
+
+}
+
+.TopNav ul  {
+  float: right;
+
+  color:#fff;
+  /* direction: rtl; */
+
+
+}
+.nav{
+  background-color: rgb(55, 150, 172);
+
+}
+
+.nav-pills {
+  float: right;
+  font-family: 'Cairo', sans-serif;
+  font-size: 16px;
+}
+.nav-pills>li>a{
+  border-radius: 0px;
+  color: #fff;
+
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+    background-color: rgb(45, 123, 145);
+    /* background-color: rgb(55, 150, 172); */
+
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+  /* background-color: rgb(45, 123, 145); */
+  background-color: rgb(55, 150, 172);
+}
+.nav>li>a:hover, .nav>li>a:focus{
+  /* background-color: #308BA2; */
+  background-color: rgb(55, 150, 172);
+}
+
+.nav>li>a{
+  /* border: 2px solid #000; */
+  height: 50px;
+  margin-top: 0px;
+}
+.dropdown-menu{
+  float: right;
+  border-radius: 0px;
+  text-align: right;
+  width: 370px;
+  max-width: 400px;
+
+}
+.dropdown-menu li a {
+  padding: 10px 15px;
+
+  /* border: 2px solid #000; */
+  text-align: right;
+}
+
+.dropdown-toggle img{
+  width: 30%;
+  height: 100%;
+}
+
+#wrapper {
+	/* background:#29afd1; */
+	display:inline-block;
+	position: relative;
+	cursor:pointer;
+  float: right;
+  padding-right: 15px;
+  /* border: 2px solid #000; */
+
+}
+
+.main-item {
+	width:30px;
+	height:25px;
+	position:relative;
+}
+
+.line {
+	position: absolute;
+	height: 4px;
+	width:100%;
+	background:white;
+	border-radius:10px;
+	transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+
+.line01 {
+	top:19%;
+}
+
+.line02 {
+	top:49%;
+}
+
+.line03 {
+	top:79%;
+}
+
+.menu.close .line01 {
+	transform:rotate(45deg);
+	top:49%;
+}
+
+.menu.close .line02, .menu.close .line03 {
+	transform:rotate(-45deg);
+	top:49%;
+}
+/* min and sub menie style  */
+.min-item{
+  font-size: 16px;
+  font-family: 'Cairo', sans-serif;
+  /* border: 2px solid #000; */
+  color: #3796ac !important;
+  width: 100%;
+  float: right;
+
+}
+.min-item i{
+  font-size: 22px;
+  margin-left: 15px;
+  display: inline-block;
+  color: #3796ac;
+  float: right;
+
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+  background-color: #f8fafd;
+  color: #3796ac;
+  background-image: none !important;
+
+}
+.sub-menu{
+  width: 100%;
+  /* display: none; */
+}
+
+.sub-menu li{
+  /* padding: 0px 0px; */
+  /* width: 363px; */
+  /* float: right; */
+  background-color: #f8fafd;
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+}
+.sub-menu a{
+  text-decoration: none;
+  color: #3796ac;
+  text-align: center;
+  font-size: 14px;
+
+}
+.sub-menu a span{
+  padding-right: 40px;
+}
+
+.dropdown-menu li ul a{
+/* display: none; */
+}
+.dropdown-menu li ul a:hover{
+display: block;
+}
+
+/* min and sub menie style  */
+
+/* End nav Style */
+
+
+
+
+
+/* End  AmmemDashboord  */
